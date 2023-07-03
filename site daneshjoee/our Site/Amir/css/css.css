@@ -1,0 +1,346 @@
+@font-face {
+  font-family: 'ByeKan';
+  src: url('../fonts/Byekan.ttf') format('truetype');
+  src: url('../fonts//Byekan.woff') format('woff');
+}
+
+   
+a:link {
+  color: white;
+}
+
+
+a:visited {
+  color:white;
+}
+
+
+a:hover {
+  color: white;
+}
+
+
+a:active {
+  color:white;
+}
+body{
+  font-family: ByeKan;
+  right: 0%;
+  
+}
+
+
+
+.header{
+  font-family: ByeKan;
+  height: 100px;
+  background-image: url('../pic/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  margin-bottom: 120px;
+}
+
+.header .nav-list{
+  list-style-type: none;
+}
+
+.header .nav-list .nav-item{
+  display: inline-block;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.header .nav-list .nav-item:hover{
+  color: orange;
+}
+
+.header h1{
+  font-size: 60px;
+  font-family:ByeKan ;
+  margin-top: 90px;
+}
+
+.header h1 span{
+  color: orange;
+}
+
+.onvan{
+font-family:ByeKan ;
+margin-left: 43%;
+
+}
+
+.tx{
+    direction: rtl;
+}
+
+body{
+
+  background-image: url(../pic/woman-calling-while-working-remotely-on-laptop-free-photo-2210x1474.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  
+
+}
+
+.h{
+  border: 8px solid rgba(250, 250, 250, 0.897);
+ 
+}
+
+.tz{
+   font-size: 19px;
+   font-family:ByeKan ;
+}
+
+.f{
+
+  font-family:ByeKan ;
+
+}
+
+
+
+.ff{
+
+margin-top: 200px;
+
+}
+
+
+#map{
+
+width:100%;
+height:350px;  
+
+}
+
+
+.fori{
+
+margin-bottom: 120px;
+
+}
+
+
+footer{
+
+
+  background-color: rgb(37, 36, 36);
+  height: 0px;
+  width:100% ;
+  font-family: ByeKan;
+  padding-top: 10px;
+  color: white;
+  bottom: 0%;
+
+
+}
+
+.footer-content{
+
+  background-color: rgb(37, 36, 36);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  text-align: center;
+
+}
+
+.footer-content h3{
+font-size: 1.8rem;
+font-weight: 400;
+text-transform: capitalize;
+line-height: 3rem;
+
+
+
+}
+
+.footer-content p{
+max-width: 500px;
+margin: 10px auto;
+line-height: 28px;
+font-size: 14px;
+
+
+
+
+}
+
+.socials{
+ font-size: 25px;
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 1rem 0 3rem 0;
+
+
+
+}
+
+
+.socials li{
+
+margin: 0 15px;
+
+}
+.socials a{
+text-decoration: none;
+color: white;
+
+}
+.nam{
+
+  margin-bottom: 5px;
+  margin-top: 3px;
+  
+  }
+.socials a:hover{
+color: rgb(14, 190, 8);
+
+}
+.socials-bottom{
+
+  background: black;
+width: 100vw;
+padding: 20px 0;
+text-align: center;
+
+}
+
+.footer-bottom p{
+
+font-size: 13px;
+word-spacing: 3px;
+text-transform: capitalize;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction:column;
+text-align: center;
+
+}
+.footer-bottom span{
+text-transform: uppercase;
+opacity:2;
+font-weight: 100;
+
+
+
+}
+
+.fot{
+
+margin-bottom: 0%;
+padding-bottom: 0%;
+
+}
+.footer-bottom{
+  
+  background-color: rgb(37, 36, 36);
+}
+
+
+
+
+ 
+
+                                              /* neon bottom  */
+
+:root {
+  --clr-neon: rgb(36, 206, 78);
+  --clr-bg: rgb(255, 255, 255);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+.neon-button {
+  font-size: 1.5rem;
+text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--clr-neon);
+  border: var(--clr-neon) 0.125em solid;
+  padding: 0.25em 1em;
+  border-radius: 0.25em;
+
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+
+  box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+
+  position: relative;
+}
+
+.neon-button::before {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  background: var(--clr-neon);
+ 
+
+ 
+}
+
+.neon-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 2em 0.5em var(--clr-neon);
+  opacity: 0;
+  background-color: var(--clr-neon);
+  z-index: -1;
+  transition: opacity 100ms linear;
+}
+
+.neon-button:hover,
+.neon-button:focus {
+  color: var(--clr-bg);
+  text-shadow: none;
+}
+
+.neon-button:hover::before,
+.neon-button:focus::before {
+  opacity: 1;
+}
+.neon-button:hover::after,
+.neon-button:focus::after {
+  opacity: 1;
+}
+
+.bb{
+  background: rgba(59, 63, 59, 0.3);
+  color: white;
+ 
+}
+
+.upi{
+margin-top: 25px;
+
+
+
+
+}
+.bb{
+  background: rgba(59, 63, 59, 0.3);
+  color: white;
+ 
+}

@@ -1,0 +1,283 @@
+@font-face {
+    font-family: 'ByeKan';
+    src: url('../fonts/Byekan.ttf') format('truetype');
+    src: url('../fonts//Byekan.woff') format('woff');
+}
+
+
+body{
+    font-family: ByeKan;
+    right: 0%;
+
+}
+
+
+.header{
+    font-family: ByeKan;
+    height: 100px;
+    background-image: url('../pic/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 120px;
+}
+
+.header .nav-list{
+    list-style-type: none;
+}
+
+.header .nav-list .nav-item{
+    display: inline-block;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.header .nav-list .nav-item:hover{
+    color: orange;
+}
+
+.header h1{
+    font-size: 60px;
+    font-family:ByeKan ;
+    margin-top: 90px;
+}
+
+.header h1 span{
+    color: orange;
+}
+
+
+.tx{
+    direction: rtl;
+}
+
+
+
+body{
+
+    background-image: url(../pic/half-opened-macbook-laptop-on-a-sofa-2210x1474.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+.h{
+    border: 8px solid rgba(250, 250, 250, 0.897);
+
+}
+
+.tz{
+    font-size: 19px;
+    font-family:ByeKan ;
+}
+
+.f{
+
+    font-family:ByeKan ;
+
+}
+
+
+
+.ff{
+
+    margin-top: 200px;
+
+}
+
+
+
+
+
+.fori{
+
+    margin-bottom: 120px;
+
+}
+
+
+footer{
+
+
+    background-color: rgb(37, 36, 36);
+    height: 0px;
+    width:100% ;
+    font-family: ByeKan;
+    padding-top: 10px;
+    color: white;
+    bottom: 0%;
+
+
+}
+
+.footer-content{
+
+    background-color: rgb(37, 36, 36);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    text-align: center;
+
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+
+
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+
+
+
+
+}
+
+.socials{
+    font-size: 25px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+
+
+}
+
+
+.socials li{
+
+    margin: 0 15px;
+
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+
+}
+.nam{
+
+    margin-bottom: 5px;
+    margin-top: 3px;
+
+}
+.socials a:hover{
+    color: rgb(14, 190, 8);
+
+}
+.socials-bottom{
+
+    background: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.footer-bottom p{
+
+    font-size: 13px;
+    word-spacing: 3px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    text-align: center;
+
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity:2;
+    font-weight: 100;
+
+
+
+}
+
+.fot{
+
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+
+}
+.footer-bottom{
+
+    background-color: rgb(37, 36, 36);
+}
+
+
+
+
+
+
+
+.bb{
+    background: rgba(252, 253, 252, 0.3);
+    color: white;
+}
+
+
+
+.axi{
+
+
+width: 600px;
+height: 350px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.tex{
+
+font-size: 20px;
+color: rgb(5, 5, 5);
+}
+.tf{
+
+    text-decoration: none;
+
+}
+.bs{
+
+    background: rgba(8, 8, 0, 0.3);
+  
+}
+
+
+
+
+
+a:link {
+    color: white;
+  }
+  
+  
+  a:visited {
+    color:white;
+  }
+  
+  
+  a:hover {
+    color: white;
+  }
+  
+  
+  a:active {
+    color:white;}

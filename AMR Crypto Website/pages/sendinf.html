@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="fa-IR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMR Coin - Crypto Currency Coin </title>
+    <link rel="icon" type="image/png" href="../pic/logo.png">
+    
+<!--  CSS   -->
+<link rel="stylesheet" href="../assets/bootstrap.min.css" />
+<link rel="stylesheet" href="../assets/styleform.css" />
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="../pic/logo.png" alt="Brand Name">
+          <h4>AMR Coin</h4>
+        </div>
+        <nav>
+          <ul class="colorlink">
+            <li><a style="font-size: 25px;font-family: Arial, Helvetica, sans-serif; " href="..//pages/main.html">صفحه اصلی  </a></li>
+            
+          </ul>
+        </nav>
+        <div class="price">
+          <p>شروع قیمت پروژه: $0.8</p>
+        </div>
+      </header>
+
+    </div>
+
+
+
+   
+    <div class="form-body">
+      <form action="">
+
+        <h1 class="h1fx">فرم دریافت اطلاعات و رزومه</h1>
+
+        <div class="form-item">
+          <label for="fullname">نام و نام خانوادگی</label>
+          <input type="text" id="fullname" name="fullname">
+        </div>
+        
+        <div class="form-item">
+          <label for="phone">شماره تلفن</label>
+          <input type="tel" id="phone" name="phone" oninput="validatePhoneInput()" />
+        </div>
+        
+        <div class="form-item">
+          <label for="fullname"> ایمیل</label>
+          <input type="email" id="email" name="email">
+        </div>
+
+        <div class="form-item">
+          <label for="nationality">ملیت</label>
+          <select class="nationalitybox" id="nationality" name="nationality">
+            <option value="AR">آرژانتین</option>
+            <option value="AF">افغانستان</option>
+            <option value="AL">آلبانی</option>
+            <option value="DZ">الجزایر</option>
+            <option value="AS">آمریکای ساموا</option>
+            <option value="AD">آندورا</option>
+            <option value="AO">آنگولا</option>
+            <option value="AI">آنگویلا</option>
+            <option value="AI">ایران</option>
+            <option value="AQ">جنوبگان</option>
+            <option value="AG">آنتیگوا و باربودا</option>
+            
+          </select>
+        </div>
+        
+
+        <div class="form-item">
+          <label for="work-type"> شرایط  حضور فعالیت شما</label>
+          <div >
+            <input type="radio" id="full-time" name="work-type" value="full-time">
+            <label for="full-time">تمام وقت</label>
+    
+            <input type="radio" id="part-time" name="work-type" value="part-time">
+            <label for="part-time">پاره وقت</label>
+    
+            <input type="radio" id="remote" name="work-type" value="remote">
+            <label for="remote">دورکاری</label>
+    
+            <input type="radio" id="in-office" name="work-type" value="in-office">
+            <label for="in-office">حضوری</label>
+          </div>
+        </div>
+    
+        <div class="form-item">
+          <label for="skills">مهارت ها شما چیست</label>
+          <textarea id="skills" name="skills"></textarea>
+        </div>
+    
+        <div class="form-item">
+          <label for="message">اگر فایل رزومهای دارید نیز میتوانید درج کنید</label>
+          <label for="resume">
+            <span class="resume-label">
+              درج فایل رزومه
+            </span>
+          </label>
+          <input type="file" id="resume" name="resume" accept=".pdf,.docx,.doc">
+        </div>
+    
+
+
+        <div class="form-item">
+          <label for="message">توضیحات بیشتر درباره خودتان</label>
+          <textarea id="message" name="message"></textarea>
+        </div>
+    
+        <div class="form-item">
+          <input type="submit" value="ارسال رزومه و اطلاعات">
+        </div>
+      </form>
+    </div>
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+    <footer class="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social-icon">
+        <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="https://twitter.com/">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a></li>
+      </ul>
+      
+      <div class="email-form">
+        <form>
+          <input type="email" placeholder=" ثبت ایمیل برای اخرین اخبار">
+          <button type="submit">ثبت</button>
+        </form>
+      </div>
+      <p>&copy;2023 AMR TEAM | تمامی حقوق پروژه محفوظ است و کپی برداری پیگرد قانونی دارد</p>
+    </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+  
+  
+     
+  
+  
+  
+  
+  
+     <!--  js   --> 
+  <script src="../assets/javascript2.js"></script>
+  </body>
+   
+  </html>
